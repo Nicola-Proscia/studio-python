@@ -1,12 +1,10 @@
-primi = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]
+parola = "niosaduybfoyfsydufvugfsasosbv"
+match = "s"
+counter = 0
 
-
-
-match = 11
-match2 = 41  
-
-for el in primi:     
-    if el == match or el == match2:  
-        print("trovato")
-    else:
-        print("non trovato") 
+for el in parola:
+    if el == match:
+        counter += 1
+        
+output = f"ho trovato all'interno {counter} lettere {match}"        
+print(output)
