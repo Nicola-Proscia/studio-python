@@ -22,3 +22,4 @@ python -m venv venv  # creamo una cartella venv con questo comando diciamo a pyt
 #per installare django su un ambiente vistuale di python
 #lanciamo il comando 
 pip install django
+
